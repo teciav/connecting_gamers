@@ -6,6 +6,7 @@ import { DuoInfo } from '../DuoInfo';
 import { styles } from './styles';
 
 export interface DuoCardProps {
+    id: string;
     hourEnd: string;
     hourStart: string;
     name: string;

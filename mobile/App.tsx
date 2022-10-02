@@ -1,4 +1,4 @@
-import { StatusBar } from 'react-native'
+import { StatusBar } from 'react-native';
 import { 
   useFonts,
   Inter_400Regular,
@@ -10,7 +10,6 @@ import {
 import { Routes } from './src/routes';
 import { Loading } from './src/components/Loading';
 import { Background } from './src/components/Background';
-
 
 export default function App() {
   const [fontsLoaded] = useFonts({

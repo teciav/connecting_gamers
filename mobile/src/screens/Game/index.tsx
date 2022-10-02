@@ -80,7 +80,11 @@ export function Game() {
             horizontal
           />
 
-          <DuoMatch discord={discordDuoSelected} visible={discordDuoSelected.length > 0 } onClose={() => setdiscordDuoSelected('')}/>
+          <DuoMatch 
+            discord={discordDuoSelected} 
+            visible={discordDuoSelected.length > 0 } 
+            onClose={() => setdiscordDuoSelected('')}
+          />
         </SafeAreaView>
     </Background>
   );
